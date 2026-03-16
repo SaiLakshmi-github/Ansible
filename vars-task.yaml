@@ -7,9 +7,9 @@
   tasks:
   - name: variable declaration
     vars: #Task level variables
-    Course: DevOps
-    Trainer: Joindevops
-    Duration: 150hrs
+     Course: DevOps
+     Trainer: Joindevops
+     Duration: 150hrs
     ansible.builtin.debug:
       msg: "Hi, I am learning {{Course}} from {{Trainer}}, Duration is {{Duration}}"
 
