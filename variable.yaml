@@ -1,7 +1,7 @@
 - name: Declare variables
   hosts: localhost
   vars:
-    Course: Ansible
+    Course: Docker and K8s
     Trainer: Joindevops
     Duration: 120hrs
   tasks:
