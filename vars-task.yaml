@@ -1,7 +1,7 @@
 - name: Declare variables
   hosts: localhost
   vars: #Play level variables
-    Course: Terraform
+    Course: Docker
     Trainer: Joindevops
     Duration: 15hrs
   tasks:
