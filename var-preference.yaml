@@ -11,6 +11,6 @@
   tasks:
   - name: check preference
     vars:
-       Wishes from TASK variable
+       Wishes: Wishes from TASK variable
     ansible.builtin.debug:
       msg: Hi, Good {{Wishes}}
