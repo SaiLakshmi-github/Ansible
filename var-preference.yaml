@@ -2,8 +2,8 @@
   hosts: localhost
   vars:
     Wishes: Wishes from variable
-  vars_files:
-  - vars.yaml
+  # vars_files:
+  # - vars.yaml
   vars_prompt:
   - name: Wishes
     prompt: Morning from prompt variable
