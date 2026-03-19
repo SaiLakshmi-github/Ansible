@@ -1,0 +1,12 @@
+- name: Install packages
+  hosts: localhost
+  become: yes
+  tasks:
+  - name: install package
+    ansible.builtin.dnf:
+     name: "{{ item.name}}"
+     state: "{{ item.state}}"
+    loop:
+      - {name: 'nginx', state: 'latest'}
+      - {name: 'mysql', state: 'absent'}
+      - {name: 'postfix', state: 'absent'}
